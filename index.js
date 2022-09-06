@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import ejercicio1 from './ejercicios/ejercicio1.js';
 
 const db = mongoose.connection;
 
@@ -14,6 +15,11 @@ db.on('disconnected', () => {
 db.on('error', () => {
     console.error('Error en la conexion a la base de datos 🔴')
 })
-mongoose.connect('mongodb+srv://usuario1:123456fa@cluster0.4mlvpxs.mongodb.net/?retryWrites=true&w=majority', () => {
+mongoose.connect('mongodb+srv://usuario1:123456fa@cluster0.4mlvpxs.mongodb.net/Queries?retryWrites=true&w=majority', async() => {
     console.log('Ejercicios')
+    await ejercicio1();
+    /**
+     * 1.- Entregue todos los documentos de la seleccion restaurants
+     * 
+     */
 })
