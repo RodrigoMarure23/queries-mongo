@@ -1,0 +1,25 @@
+{
+  "name": "queries-mongo",
+  "version": "1.0.0",
+  "description": "Ejercicios de queries de mongo con una base de datos de restaurante",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoMarure23/queries-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoMarure23/queries-mongo/issues"
+  },
+  "homepage": "https://github.com/RodrigoMarure23/queries-mongo#readme",
+  "dependencies": {
+    "mongoose": "^6.5.4"
+  }
+}
