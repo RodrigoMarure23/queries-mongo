@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 const restaurantSchema = new mongoose.Schema({
     address: {
         building: String,
-        cord: [Number, Number],
+        cord: [Number],
         street: String,
         zipcode: String
 

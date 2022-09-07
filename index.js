@@ -2,6 +2,8 @@ import mongoose from 'mongoose'
 import ejercicio1 from './ejercicios/ejercicio1.js';
 import ejercicio2 from './ejercicios/ejercicio2.js';
 import ejercicio3 from './ejercicios/ejercicio3.js';
+import ejercicio4 from './ejercicios/ejercicio4.js';
+import ejercicio5 from './ejercicios/ejercicio5.js';
 
 const db = mongoose.connection;
 
@@ -21,7 +23,9 @@ mongoose.connect('mongodb+srv://usuario1:123456fa@cluster0.4mlvpxs.mongodb.net/Q
     console.log('Ejercicios')
     //await ejercicio1();
     //await ejercicio2();
-    await ejercicio3();
+    //await ejercicio3();
+    //await ejercicio4();
+    await ejercicio5();
     /**
      * 1.- Entregue todos los documentos de la seleccion restaurants
      * 2.- Entregue los campos restaurant_id, name, borough y cousine de todos los documentos
