@@ -1,4 +1,4 @@
-import { splitVendorChunkPlugin } from "vite";
+
 import Restaurant from "../Restaurant.js";
 
 export default async () =>{
